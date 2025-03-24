@@ -28,5 +28,8 @@ def index():
         recommendations = recommend_products(query).to_dict(orient='records')
     return render_template('index.html', recommendations=recommendations)
 
+import os
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
