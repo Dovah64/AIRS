@@ -59,7 +59,6 @@ Click the Search button.
 View the top recommended devices with their titles, brands, categories, and images.
 
 ## Future Plans
-Deploy the app online for easy sharing.
 
 Enhance the AI model with more advanced techniques.
 
